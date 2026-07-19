@@ -1,0 +1,24 @@
+{
+  "name": "@LinkTrim/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@LinkTrim/db": "workspace:*",
+    "@LinkTrim/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@LinkTrim/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

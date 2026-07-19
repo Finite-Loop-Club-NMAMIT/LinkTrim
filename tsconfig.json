@@ -1,0 +1,3 @@
+{
+  "extends": "@LinkTrim/config/tsconfig.base.json"
+}
